@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func compress(chars []byte) int {
 	write := 0
@@ -18,7 +21,7 @@ func compress(chars []byte) int {
 		write++
 
 		if count > 1 {
-			for _, digit := range []byte(fmt.Sprintf("%d", count)) {
+			for _, digit := range []byte(strconv.Itoa(count)) {
 				chars[write] = digit
 				write++
 			}
@@ -31,7 +34,7 @@ func compress(chars []byte) int {
 }
 
 func main() {
-	compress([]byte{"a", "a", "b", "b", "c", "c", "c"})
+	compress([]byte{'a', 'a', 'b', 'b', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c', 'c'})
 }
 
 /*
