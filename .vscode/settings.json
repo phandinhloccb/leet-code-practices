@@ -1,0 +1,8 @@
+{
+    "go.lintOnSave": "off",
+    "go.vetOnSave": "off",
+    "go.buildOnSave": "off",
+    "problems.showCurrentInStatus": false,
+    "go.useLanguageServer": false,
+    "go.lintTool": "none"
+}
