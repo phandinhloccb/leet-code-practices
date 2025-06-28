@@ -5,13 +5,21 @@
     "problems.showCurrentInStatus": false,
     "go.useLanguageServer": false,
     "go.lintTool": "none",
-    "go.buildFlags": ["-tags=ignore"],
-    "go.testFlags": ["-tags=ignore"],
-    "files.exclude": {
-        "**/*.go": false
-    },
     "go.toolsManagement.checkForUpdates": "off",
     "go.gopath": "",
     "go.goroot": "",
-    "go.inferGopath": false
+    "go.inferGopath": false,
+    "go.buildTags": "",
+    "go.testTags": "",
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": false
+    },
+    "go.diagnostic.vulncheck": "Off",
+    "go.survey.prompt": false,
+    "problems.decorations.enabled": false,
+    "editor.semanticHighlighting.enabled": false,
+    "go.alternateTools": {
+        "go": "echo"
+    }
 }
