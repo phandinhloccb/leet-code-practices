@@ -9,5 +9,9 @@
     "go.testFlags": ["-tags=ignore"],
     "files.exclude": {
         "**/*.go": false
-    }
+    },
+    "go.toolsManagement.checkForUpdates": "off",
+    "go.gopath": "",
+    "go.goroot": "",
+    "go.inferGopath": false
 }
