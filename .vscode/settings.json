@@ -4,5 +4,10 @@
     "go.buildOnSave": "off",
     "problems.showCurrentInStatus": false,
     "go.useLanguageServer": false,
-    "go.lintTool": "none"
+    "go.lintTool": "none",
+    "go.buildFlags": ["-tags=ignore"],
+    "go.testFlags": ["-tags=ignore"],
+    "files.exclude": {
+        "**/*.go": false
+    }
 }
