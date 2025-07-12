@@ -4,7 +4,7 @@ import "fmt"
 
 
 type RecentCounter struct {
-	request []int
+	requests []int
 }
 
 
